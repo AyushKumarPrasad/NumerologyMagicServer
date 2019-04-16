@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "504126857432",
+    "firebase_url": "https://numerologymagic-7d4c0.firebaseio.com",
+    "project_id": "numerologymagic-7d4c0",
+    "storage_bucket": "numerologymagic-7d4c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504126857432:android:d71b6ece8a729587",
+        "android_client_info": {
+          "package_name": "magic.numerology.ideas.turnup.numerologymagic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504126857432-2uifd9s5pmqh9968ctejko87tjt5adbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "magic.numerology.ideas.turnup.numerologymagic",
+            "certificate_hash": "e3996d2cc306434a766174afbe05264fed9fc888"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFDt8AD-T6rI7E6GAZqTkjfQse3VvwFTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504126857432-h5s61birfffk5qccf8p5dl60etmdvj48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504126857432:android:93056466487a64ce",
+        "android_client_info": {
+          "package_name": "turnup.ideas.numerology.magic.numerologymagicserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504126857432-lnp6rki9faq6fbda9pacbk5rke79n75m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "turnup.ideas.numerology.magic.numerologymagicserver",
+            "certificate_hash": "e3996d2cc306434a766174afbe05264fed9fc888"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFDt8AD-T6rI7E6GAZqTkjfQse3VvwFTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504126857432-h5s61birfffk5qccf8p5dl60etmdvj48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

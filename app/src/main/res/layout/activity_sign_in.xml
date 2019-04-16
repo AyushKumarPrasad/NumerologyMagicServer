@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@mipmap/landingpage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtPhone"
+                    android:maxLength="10"
+                    android:textColor="@color/edittextcolor"
+                    android:textColorHint="@color/edittextcolor"
+                    android:text="SATACHI"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@mipmap/dobinput"
+                    android:fontFamily="@font/open_sans_light"
+                    android:inputType="phone"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:maxLength="20"
+                    android:textAlignment="center"
+                    android:text="Balya!@2020"
+                    android:fontFamily="@font/open_sans_light"
+                    android:background="@mipmap/dobinput"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/edittextcolor"
+                    android:textColorHint="@color/edittextcolor"
+                    android:textSize="16sp"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"  />
+                <Button
+                    android:id="@+id/btnSignIn"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@mipmap/clickbutton"
+                    android:fontFamily="@font/font_edittext"
+                    android:maxLength="30"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"  />
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/chkRemember"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/open_sans_light"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Remember Me"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"  />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
